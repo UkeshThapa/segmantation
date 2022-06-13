@@ -22,7 +22,7 @@ This is a PyTorch(1.11.0) implementation of [DeepLab-V3-Plus](https://arxiv.org/
 can use Modified Aligned Xception and ResNet as backbone. Currently, we train DeepLab V3 Plus
 using Pascal VOC 2012, SBD and Cityscapes, Darwinlugs, JSTR, MC, SH, NIH, ChestXpeert datasets.
 
-![Results](doc/results.png)
+![Image](doc/lung_image.jpg)
 
 
 ### Installation
