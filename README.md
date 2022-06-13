@@ -30,8 +30,8 @@ The code was tested with Python 3.9.7 After installing the Virtual environment:
 
 0. Clone the repo:
     ```Shell
-    git clone https://github.com/jfzhang95/pytorch-deeplab-xception.git
-    cd pytorch-deeplab-xception
+    https://github.com/UkeshThapa/Lung-Segmentation-Using-DeeplabV3.git
+    cd Lung-Segmentation-Using-DeeplabV3
     ```
 
 1. Install dependencies:
