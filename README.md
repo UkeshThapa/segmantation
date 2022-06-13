@@ -23,6 +23,7 @@ can use Modified Aligned Xception and ResNet as backbone. Currently, we train De
 using Pascal VOC 2012, SBD and Cityscapes, Darwinlugs, JSTR, MC, SH, NIH, ChestXpeert datasets.
 
 ![Image](doc/lung_image.jpg)
+![Image](doc/lung_masks.jpg)
 
 
 ### Installation
