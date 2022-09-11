@@ -16,23 +16,6 @@ from PIL import Image, ImageOps, ImageFilter
 from scipy.special import softmax
 from dataloaders import custom_transforms as tr
 
-def normalize_img(img):
-   
-      mean = (0.485, 0.456, 0.406)
-      std = (0.229, 0.224, 0.225)
-      img /= 255.0
-      img -= mean
-      img /= std
-      return img
-
-def transform_test(sample):
-
-    composed_transforms = transforms.Compose([
-        # tr.FixScaleCrop(crop_size=self.args.crop_size),
-        tr.Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225)),
-        tr.ToTensor()])
-
-    return composed_transforms(sample)
 
 
 def save_output_images(LOAD_PATH_MODEL, model, test_loader, SAVE_PATH_MODEL_OUTPUT):
