@@ -1,0 +1,63 @@
+
+Checking with nih_xrays_dataset
+---> average dice score nih_xrays_dataset  :  0.9278299915134207
+---> average dice score montgomery_xrays_dataset  :  0.7649725935735588
+---> average dice score japan_xrays_dataset  :  0.9157226389594207
+---> average dice score china_xrays_dataset  :  0.8195701033036521
+---> average dice score darwinlungs  :  0.7765803269979437
+---> average dice score u4_dataset  :  0.8452497932779032
+---> average dice score u5_dataset  :  0.7863507477035492
+
+Checking with montgomery_xrays_dataset
+---> average dice score nih_xrays_dataset  :  0.899958767760413
+---> average dice score montgomery_xrays_dataset  :  0.8451591323701544
+---> average dice score japan_xrays_dataset  :  0.8926960285806463
+---> average dice score china_xrays_dataset  :  0.7733816359315794
+---> average dice score darwinlungs  :  0.7118097320452502
+---> average dice score u4_dataset  :  0.8229431084283249
+---> average dice score u5_dataset  :  0.7276219976782786
+
+Checking with japan_xrays_dataset
+---> average dice score nih_xrays_dataset  :  0.8791745242247903
+---> average dice score montgomery_xrays_dataset  :  0.8389862158056015
+---> average dice score japan_xrays_dataset  :  0.9526976001019481
+---> average dice score china_xrays_dataset  :  0.6351394147008471
+---> average dice score darwinlungs  :  0.6446482879323253
+---> average dice score u4_dataset  :  0.7599805556983332
+---> average dice score u5_dataset  :  0.6610579797218512
+
+Checking with china_xrays_dataset
+---> average dice score nih_xrays_dataset  :  0.8904579810959123
+---> average dice score montgomery_xrays_dataset  :  0.18495173811287874
+---> average dice score japan_xrays_dataset  :  0.7567814181960815
+---> average dice score china_xrays_dataset  :  0.830371743669754
+---> average dice score darwinlungs  :  0.7333784588032819
+---> average dice score u4_dataset  :  0.7334398961190324
+---> average dice score u5_dataset  :  0.7333872002200188
+
+Checking with darwinlungs
+---> average dice score nih_xrays_dataset  :  0.8279619923362256
+---> average dice score montgomery_xrays_dataset  :  0.7723217540533585
+---> average dice score japan_xrays_dataset  :  0.8492709328374285
+---> average dice score china_xrays_dataset  :  0.8210797806141117
+---> average dice score darwinlungs  :  0.9434524802800474
+---> average dice score u4_dataset  :  0.8219381631702775
+---> average dice score u5_dataset  :  0.9261631948926172
+
+Checking with u4_dataset
+---> average dice score nih_xrays_dataset  :  0.9343731102532951
+---> average dice score montgomery_xrays_dataset  :  0.8229996866633639
+---> average dice score japan_xrays_dataset  :  0.9613258918279248
+---> average dice score china_xrays_dataset  :  0.8766761024811967
+---> average dice score darwinlungs  :  0.7654837385161094
+---> average dice score u4_dataset  :  0.8949944514428905
+---> average dice score u5_dataset  :  0.7846005069505091
+
+Checking with u5_dataset
+---> average dice score nih_xrays_dataset  :  0.9027135876465499
+---> average dice score montgomery_xrays_dataset  :  0.8792359028132056
+---> average dice score japan_xrays_dataset  :  0.917645107608998
+---> average dice score china_xrays_dataset  :  0.8920287287066769
+---> average dice score darwinlungs  :  0.9472249225774181
+---> average dice score u4_dataset  :  0.8973887145505275
+---> average dice score u5_dataset  :  0.9401341332474176
