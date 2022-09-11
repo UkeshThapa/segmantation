@@ -110,4 +110,3 @@ train_voc.sh
 dataloaders/datasets/coco.py
 run/darwinlungs
 run/pascal
-helper_files/
