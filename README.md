@@ -1,5 +1,5 @@
 
-# pytorch-deeplab-xception
+# pytorch-deeplab
 
 
 ### TODO
