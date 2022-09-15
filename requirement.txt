@@ -22,3 +22,16 @@ torchvision==0.12.0+cu113
 tqdm==4.64.0
 typing_extensions==4.2.0
 urllib3==1.26.9
+
+
+process
+1. Dataset
+2. Dataset loader
+3. inference 
+    Post processing
+    a. resize 
+    b. smoothing
+    c. largest part component use
+    d. Dice score track
+    e. Normalized surface distance
+    f. cropping

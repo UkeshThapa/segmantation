@@ -4,14 +4,14 @@
 
 ### TODO
 - [x] Support different backbones
-- [x] Support VOC, SBD, Cityscapes and darwinlugs, JSTR, MC, SH, NIH, ChestXpeert datasets
+- [x] Support darwinlugs, JSTR, MC, SH, NIH datasets
 - [x] Multi-GPU training
 
 
 
 | Backbone  | train/eval os  |mIoU in val |Pretrained Model|
 | :-------- | :------------: |:---------: |:--------------:|
-| ResNet    | 16/16          | 78.43%     | [google drive](https://drive.google.com/open?id=1NwcwlWqA-0HqAPk3dSNNPipGMF0iS0Zu) |
+| ResNet101 | 16/16          | 78.43%     | [google drive](https://drive.google.com/open?id=1NwcwlWqA-0HqAPk3dSNNPipGMF0iS0Zu) |
 | MobileNet | 16/16          | 70.81%     | [google drive](https://drive.google.com/open?id=1G9mWafUAj09P4KvGSRVzIsV_U5OqFLdt) |
 | DRN       | 16/16          | 78.87%     | [google drive](https://drive.google.com/open?id=131gZN_dKEXO79NknIQazPJ-4UmRrZAfI) |
 
@@ -20,7 +20,7 @@
 ### Introduction
 This is a PyTorch(1.11.0) implementation of [DeepLab-V3-Plus](https://arxiv.org/pdf/1802.02611). It
 can use Modified Aligned Xception and ResNet as backbone. Currently, we train DeepLab V3 Plus
-using Pascal VOC 2012, SBD and Cityscapes, Darwinlugs, JSTR, MC, SH, NIH, ChestXpeert datasets.
+using Darwinlugs, JSTR, MC, SH, NIH.
 
 ![Image](doc/image.png)
 
@@ -64,13 +64,13 @@ Follow steps below to train your model:
 
     ```
 
-2. To train deeplabv3+ using Pascal VOC dataset and ResNet as backbone:
+2. To train deeplabv3+ using Pascal VOC dataset and ResNet-101 as backbone:
     ```Shell
     bash train_voc.sh
     ```
 3. To train deeplabv3+ using COCO dataset and ResNet as backbone:
     ```Shell
-    bash train_coco.sh
+    file path
     ```    
 4. training command
     ```Shell
