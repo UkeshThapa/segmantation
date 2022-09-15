@@ -163,3 +163,16 @@ class FixedResize(object):
 
         return {'image': img,
                 'label': mask}
+
+
+# Created by Ukesh
+class Resize(object):
+    def __init__(self,size):
+        self.size = (size,size)
+
+    def __call__(self, sample):
+        img = sample['image']
+        mask = sample['label']
+        img = img.resize(self.size, Image.BILINEAR)
+        return {'image': img,
+                'label': mask}
