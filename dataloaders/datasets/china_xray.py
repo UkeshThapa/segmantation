@@ -123,14 +123,16 @@ class China_xrays(Dataset):
 
         return composed_transforms(sample)
 
+
     def transform_test(self, sample):
 
         composed_transforms = transforms.Compose([
-            # tr.FixScaleCrop(crop_size=self.args.crop_size),
+            tr.Resize(size=self.args.size),
             tr.Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225)),
             tr.ToTensor()])
 
         return composed_transforms(sample)
+
 
     def __str__(self):
         return 'china_xray(split=' + str(self.split) + ')'
