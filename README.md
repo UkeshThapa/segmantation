@@ -74,7 +74,7 @@ Follow steps below to train your model:
     ```    
 4. training command
     ```Shell
-     python train.py --backbone mobilenet --dataset darwinlungs --batch-size 4
+     python train.py --backbone resnet --dataset darwinlungs --batch-size 4
     ```    
  python train.py --backbone mobilenet --dataset darwinlungs --batch-size 4  
 
