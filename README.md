@@ -76,7 +76,16 @@ Follow steps below to train your model:
     ```Shell
      python fcn_train.py --backbone resnet --dataset darwinlungs --batch-size 4
     ```
-    
+## Testing
+1. To test fcn
+    ```Shell
+     python fcn_inference.py 
+    ```
+2. To test DeeplabV3+
+    ```Shell
+     python inference.py 
+    ```
+
 ### Acknowledgement
 [PyTorch-Encoding](https://github.com/zhanghang1989/PyTorch-Encoding)
 
