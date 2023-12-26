@@ -68,16 +68,15 @@ Follow steps below to train your model:
     ```Shell
     bash train_voc.sh
     ```
-3. To train deeplabv3+ using COCO dataset and ResNet as backbone:
-    ```Shell
-    file path
-    ```    
-4. training command
+3. To train DeeplabV3+
     ```Shell
      python train.py --backbone resnet --dataset darwinlungs --batch-size 4
-    ```    
- python train.py --backbone mobilenet --dataset darwinlungs --batch-size 4  
-
+    ```
+4. To train fcn
+    ```Shell
+     python fcn_train.py --backbone resnet --dataset darwinlungs --batch-size 4
+    ```
+    
 ### Acknowledgement
 [PyTorch-Encoding](https://github.com/zhanghang1989/PyTorch-Encoding)
 
