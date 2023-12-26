@@ -1,0 +1,6 @@
+Dataset	,nih_xrays_dataset	,montgomery_xrays_dataset ,japan_xrays_dataset ,china_xrays_dataset	,darwinlungs
+nih_xrays_dataset	,0.92	,0.76	,0.92	,0.82	,0.78
+montgomery_xrays_dataset	,0.9	,0.85	,0.89	,0.77	,0.71
+japan_xrays_dataset	,0.88	,0.84	,0.95	,0.64	,0.64
+china_xrays_dataset	,0.89	,0.18	,0.76	,0.83	,0.73
+darwinlungs	,0.82	,0.77	,0.85	,0.82	,0.94
